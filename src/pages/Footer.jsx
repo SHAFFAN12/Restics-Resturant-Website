@@ -117,7 +117,7 @@ const Footer = () => {
                                 placeholder="Your Email address"
                                 className="bg-[#fff] text-gray-700 px-2 py-1 mr-2 focus:outline-none w-48 max-sm:w-32" // Adjusted width and padding
                             />
-                            <FaArrowRight className="text-4xl text-white bg-orange-500 p-3 rounded-md" /> {/* Larger icon */}
+                            <FaArrowRight className="text-4xl text-white bg-orange-500 p-3 rounded-md z-10" /> {/* Larger icon */}
                         </button>
                     </div>
                     <div className='flex items-center gap-2 mt-2'>

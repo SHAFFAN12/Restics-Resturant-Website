@@ -4,6 +4,7 @@ import Layout from './pages/Layout';
 import Home from './pages/Home';
 import NoPage from './pages/NoPage';
 import Aboutus from './pages/Aboutus.jsx';
+import Login from './pages/Login.jsx';
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
             <Route path="/" element={<Layout />}>
               <Route index  element={<Home />}/>
               <Route path='about'  element={<Aboutus />}/>
+              <Route path='login'  element={<Login />}/>
               <Route path="*" element={<NoPage />} />
             </Route>
             
